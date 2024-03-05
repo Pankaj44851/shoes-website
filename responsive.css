@@ -1,0 +1,148 @@
+@media(max-width:1199px){
+    .navbar a {
+        font-size: 46px;
+    }
+    button.navbar-toggler.collapsed {
+        font-size: 40px;
+    }
+    .first-content h1 {
+        font-size: 59px;
+        font-weight: bolder;
+        margin-top: 306px;
+    }
+    .first p {
+        font-weight: 450;
+        font-size: 29px;
+    }
+
+    .first-content a {
+        text-decoration: none;
+        color: black;
+        background-color: transparent;
+        border: 2px solid black;
+        position: absolute;
+        font-size: 25px;
+        bottom: 420px;
+        padding: 20px 44px;
+        font-weight: bold;
+    }
+
+    .second-content {
+        margin-bottom: 59px;
+    }
+
+    .newsletter {
+        padding: 16% 0 5%;
+        background: url(https://i.ibb.co/JRrHmhv/shanghai.jpg) no-repeat center center;
+        background-size: cover;
+        position: relative;
+        z-index: 2;
+        background-attachment: fixed;
+        min-height: 50vh;
+        overflow: hidden;
+    }
+
+
+    #paraa{
+        font-size: 20px !important;
+    }
+}
+
+
+
+@media(max-width:768px){
+
+  section{
+    overflow: hidden;
+  }
+  
+  #footer {
+    padding: 1rem;
+   
+}
+.img1 {
+    width: 58%;
+    height: 250px;
+}
+.item img {
+    height: 285px;
+    width: 100%;
+}
+.owl-nav {
+    position: absolute;
+    top: -37px;
+    right: 31px;
+    font-size: 100px;
+}
+    .navbar a {
+        font-size: 18px;
+    }
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+        display: flex;
+        flex-wrap: inherit;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .first-content h1 {
+        font-size: 43px;
+        font-weight: bolder;
+        margin-top: 176px;
+    }
+
+    .first p {
+        font-weight: 450;
+        font-size: 20px;
+        padding-top: 15px;
+        /* display: none; */
+    }
+    .first-content a {
+        text-decoration: none;
+        color: black;
+        background-color: transparent;
+        border: 2px solid black;
+        position: absolute;
+        font-size: 25px;
+        bottom: 93px;
+        left: 104px;
+        padding: 8px 10px;
+        font-weight: bold;
+    }
+
+    #paraa {
+        font-size: 15px !important;
+    }
+
+    #countdown {
+        background-color: aliceblue;
+        width: 100%;
+        margin: auto;
+        opacity: 0.7;
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+
+    .fifth {
+        /* background-image: url(); */
+        background-image: linear-gradient(180deg, #0000005c, black), url('images/img8.jpg');
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        color: rgb(9, 62, 108);
+        font-size: 45px;
+        font-style: italic;
+        font-weight: bolder;
+        position: relative;
+        /* padding: 80px 0px; */
+    }
+
+    .third-img img {
+        margin: 8px !important;
+    }
+    .item p{
+        color: aliceblue !important;
+    }
+    #timer span {
+        display: block;
+        font-size: 20px;
+    }
+}
